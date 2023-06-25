@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unit Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Unit Converter</h1>
+  <div class="converter">
+    <label>From:</label>
+    <input type="number" id="inputValue">
+    <select id="inputUnit">
+      <option value="m">Meters</option>
+      <option value="ft">Feet</option>
+      <option value="in">Inches</option>
+    </select>
+    <br>
+    <label>To:</label>
+    <select id="outputUnit">
+      <option value="m">Meters</option>
+      <option value="ft">Feet</option>
+      <option value="in">Inches</option>
+    </select>
+    <br>
+    <button onclick="convert()">Convert</button>
+    <br>
+    <label>Result:</label>
+    <input type="text" id="result" disabled>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

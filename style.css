@@ -1,0 +1,37 @@
+body{
+    background-color: coral;
+}
+h1 {
+    text-align: center;
+      
+  }
+  
+  .converter {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: inline-block;
+    width: 60px;
+  }
+  
+  input[type="number"] {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 150px;
+  }
+  
